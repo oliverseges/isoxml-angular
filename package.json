@@ -1,5 +1,5 @@
 {
-  "name": "isoxml",
+   "name": "isoxml-angular",
   "version": "1.9.5",
   "description": "JavaScript library to parse and generate ISOXML (ISO11783-10) files",
   "keywords": [
@@ -8,13 +8,11 @@
     "agriculture"
   ],
   "homepage": "https://github.com/dev4Agriculture/isoxml-js",
-  "bugs": "https://github.com/dev4Agriculture/isoxml-js/issues",
-  "license": "Apache-2.0",
-  "author": {
-    "name": "Alexander Parshin",
-    "email": "parshin.alexander@gmail.com",
-    "url": "https://github.com/aparshin"
+  "bugs": {
+    "url": "https://github.com/dev4Agriculture/isoxml-js/issues"
   },
+  "license": "Apache-2.0",
+  "author": "Alexander Parshin <parshin.alexander@gmail.com> (https://github.com/aparshin)",
   "files": [
     "dist"
   ],
@@ -47,5 +45,13 @@
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverseges/isoxml-js.git"
   }
 }
